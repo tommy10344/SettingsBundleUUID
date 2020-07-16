@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // UUID取得
+        let uuid = UIDevice.current.identifierForVendor!
+        // UserDefaultsに書き込み。
+        // Settings.bundleの"Identifier"で指定した値をKeyにして書き込む。
+        UserDefaults.standard.set(uuid.uuidString, forKey: "uuid")
+        
         return true
     }
 
