@@ -13,6 +13,7 @@
 		BF88307624C094BE00124F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF88307424C094BE00124F5D /* Main.storyboard */; };
 		BF88307824C094C000124F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF88307724C094C000124F5D /* Assets.xcassets */; };
 		BF88307B24C094C000124F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF88307924C094C000124F5D /* LaunchScreen.storyboard */; };
+		BF88308324C0951E00124F5D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF88308224C0951E00124F5D /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF88307724C094C000124F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF88307A24C094C000124F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF88307C24C094C000124F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF88308224C0951E00124F5D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BF88307724C094C000124F5D /* Assets.xcassets */,
 				BF88307924C094C000124F5D /* LaunchScreen.storyboard */,
 				BF88307C24C094C000124F5D /* Info.plist */,
+				BF88308224C0951E00124F5D /* Settings.bundle */,
 			);
 			path = SettingsBundleUUID;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF88308324C0951E00124F5D /* Settings.bundle in Resources */,
 				BF88307B24C094C000124F5D /* LaunchScreen.storyboard in Resources */,
 				BF88307824C094C000124F5D /* Assets.xcassets in Resources */,
 				BF88307624C094BE00124F5D /* Main.storyboard in Resources */,
